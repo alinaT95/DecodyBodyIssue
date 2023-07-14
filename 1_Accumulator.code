@@ -124,10 +124,6 @@ ADD
 DUP
 SETGLOB 10
 .loc 1_Accumulator.sol, 31
-INC
-DUP
-SETGLOB 10
-.loc 1_Accumulator.sol, 32
 PUSHSLICE xc00000000000000000000000001bed7e94
 NEWC
 STSLICE
@@ -146,7 +142,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc 1_Accumulator.sol, 36
+.loc 1_Accumulator.sol, 35
 ENDS
 .loc 1_Accumulator.sol, 0
 CALLREF {
@@ -184,9 +180,9 @@ THROW 0
 CALL $getSum_569c5f6d_internal_macro$
 
 .macro getSum_569c5f6d_internal_macro
-.loc 1_Accumulator.sol, 37
+.loc 1_Accumulator.sol, 36
 ACCEPT
-.loc 1_Accumulator.sol, 38
+.loc 1_Accumulator.sol, 37
 GETGLOB 10
 .loc 1_Accumulator.sol, 0
 

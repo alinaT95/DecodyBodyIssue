@@ -28,7 +28,6 @@ contract Accumulator {
 	function add_2(uint value) public  {
 		tvm.accept();
 		sum += value;
-		sum += 1;
 		emit TryEvent_1(sum);
 	}
 
